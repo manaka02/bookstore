@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="manaka.struts.modele.Livre" table="livre">
+        <meta attribute="class-description">
+            This class contains the matiere detail.
+        </meta>
+        <id name="id" type="int" column="idlivre">
+            <generator class="increment"/>
+        </id>
+        <!--<many-to-one name="parent" class="self.management.modele.Tache" column="idparent" not-null="false"/>-->
+        <property name="dateparution" column="dateparution" type="date"/>
+        <property name="dateajout" column="dateajout" type="date"/>
+        <property name="designation"/>
+        <property name="synopsis"/>
+        
+     
+    </class>
+</hibernate-mapping>

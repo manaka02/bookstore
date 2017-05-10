@@ -11,8 +11,11 @@
         <action name="index">
             <result>views/index.jsp</result>
         </action>
-        <action name="produits" class="manaka.struts.actions.ProduitAction" method="index">
-            <result name="success">views/produitList.jsp</result>
+        <action name="produits">
+            <result name="success">views/admin/indexAdmin.jsp</result>
+        </action>
+<!--        <action name="produits" class="manaka.struts.actions.ProduitAction" method="index">
+            <result name="success">admin/index.jsp</result>
         </action>
         <action name="save" class="manaka.struts.actions.ProduitAction" method="save">
             <result name="success">views/produitList.jsp</result>
@@ -24,7 +27,41 @@
         <action name="update" class="manaka.struts.actions.ProduitAction" method="update">
             <result name="success">views/produitList.jsp</result>
             <result name="error">views/other.jsp</result>
+        </action>-->
+        
+        <action name="categorieAdmin" class="manaka.struts.actions.CategorieAction" method="index">
+            <result name="success">views/admin/categorie.jsp</result>
         </action>
+        <action name="saveCategorie" class="manaka.struts.actions.CategorieAction" method="save">
+            <result name="success">views/admin/categorie.jsp</result>
+        </action>
+        <action name="updateCategorie" class="manaka.struts.actions.CategorieAction" method="update">
+            <result name="success">views/admin/categorie.jsp</result>
+        </action>
+        <action name="deleteCategorie" class="manaka.struts.actions.CategorieAction" method="delete">
+            <result name="success">views/admin/categorie.jsp</result>
+        </action>
+        
+        
+        <!--**************************************************************-->
+        <action name="genreAdmin" class="manaka.struts.actions.GenreAction" method="index">
+            <result name="success">views/admin/genre.jsp</result>
+        </action>
+        <action name="saveGenre" class="manaka.struts.actions.GenreAction" method="save">
+            <result name="success">views/admin/genre.jsp</result>
+        </action>
+        <action name="updateGenre" class="manaka.struts.actions.GenreAction" method="update">
+            <result name="success">views/admin/genre.jsp</result>
+        </action>
+        <action name="deleteGenre" class="manaka.struts.actions.GenreAction" method="delete">
+            <result name="success">views/admin/genre.jsp</result>
+        </action>
+        <action name="changePageGenre" class="manaka.struts.actions.GenreAction" method="index">
+            <result name="success">views/admin/genre.jsp</result>
+        </action>
+        
+        
+        
         
     </package>
 </struts> 

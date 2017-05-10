@@ -4,6 +4,36 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/dao/HibernateDao.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Genre.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Commentaire.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modelehbm/Other.hbm.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/produitList.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/services/ProduitServices.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Auteur.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/actions/ProduitAction.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Livre.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/actions/LivreAction.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modelehbm/Livre.hbm.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/Main.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/actions/GenreAction.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/application-context.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/other.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Categorie.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/webroot/css/style2.css</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/actions/CategorieAction.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/admin/header.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/admin/footer.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/struts.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Statut.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/actions/AuteurAction.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/src/java/manaka/struts/modele/Utilisateur.java</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/admin/categorie.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/webroot/js/jquery.jcarousel.min.js</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/index.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/admin/indexAdmin.jsp</file>
+            <file>file:/C:/Users/Toavina%20RALAMBOSOA/Documents/NetBeansProjects/StrutsTest/web/views/admin/genre.jsp</file>
         </group>
     </open-files>
 </project-private>

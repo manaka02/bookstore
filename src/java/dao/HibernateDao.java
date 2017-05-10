@@ -15,6 +15,8 @@ import org.hibernate.Transaction;
 import java.util.List;
 import org.hibernate.criterion.Restrictions;
 import manaka.struts.utils.HibernateUtil;
+import org.hibernate.criterion.Order;
+import org.hibernate.criterion.Projections;
 /**
  *
  * @author Toavina RALAMBOSOA
@@ -63,6 +65,40 @@ public class HibernateDao {
                 session.close();
         }
     }
+    
+    public List<BaseModele> findWithPagination(BaseModele obj, int pagenumber, int nombre, String inOrder){
+        Session session = null;
+        try{
+            session = getSessionFactory().openSession();
+            Criteria criteria = session.createCriteria(obj.getClass());
+            criteria.addOrder(Order.asc(inOrder));
+            criteria.setFirstResult((pagenumber-1)*nombre);
+            criteria.setMaxResults(nombre);
+            return criteria.list();
+        }catch (Exception ex){
+            throw ex;
+        }finally {
+            if(session!=null)
+                session.close();
+        }
+    }
+    
+    public long getNumberOfRow(BaseModele obj){
+        Session session = null;
+        try{
+            session = getSessionFactory().openSession();
+            Criteria criteria = session.createCriteria(obj.getClass());
+            criteria.setProjection(Projections.rowCount());
+            List rowCount = criteria.list();
+            return (long) rowCount.get(0);
+        }catch (Exception ex){
+            throw ex;
+        }finally {
+            if(session!=null)
+                session.close();
+        }
+    }
+    
     
     public List<BaseModele> findAllWithCondition(BaseModele obj)  throws Exception{
         Session session = null;

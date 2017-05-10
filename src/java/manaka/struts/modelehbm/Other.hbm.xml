@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="manaka.struts.modele.Categorie" table="categorie">
+        <meta attribute="class-description">
+            This class contains the matiere detail.
+        </meta>
+        <id name="id" type="int" column="idcategorie">
+            <generator class="increment"/>
+        </id>
+        <property name="designation"/>
+        <property name="details"/>
+    </class>
+    
+    <class name="manaka.struts.modele.Commentaire" table="commentaire">
+        <meta attribute="class-description">
+            This class contains the matiere detail.
+        </meta>
+        <id name="id" type="int" column="idcommentaire">
+            <generator class="increment"/>
+        </id>
+        <property name="dateajout"  column="dateajout" type="date"/>
+        <property name="texte"/>
+    </class>
+    
+    <class name="manaka.struts.modele.Statut" table="statut">
+        <meta attribute="class-description">
+            This class contains the matiere detail.
+        </meta>
+        <id name="id" type="int" column="idstatut">
+            <generator class="increment"/>
+        </id>
+        <property name="designation"/>
+        <property name="details"/>
+    </class>
+    
+    <class name="manaka.struts.modele.Genre" table="genre">
+        <meta attribute="class-description">
+            This class contains the matiere detail.
+        </meta>
+        <id name="id" type="int" column="idgenre">
+            <generator class="increment"/>
+        </id>
+        <property name="designation"/>
+        <property name="details"/>
+    </class>
+    
+    
+</hibernate-mapping>

@@ -24,6 +24,7 @@
                 <s:checkbox label="promo" name="produit.promo"></s:checkbox>
                 <s:hidden name="editMode"></s:hidden>
                 <s:hidden name="produit.id"></s:hidden>
+                <s:textarea
                 <s:submit value="Save"></s:submit>
             </s:form>
 

@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import manaka.struts.modele.BaseModele;
+import manaka.struts.modele.Categorie;
+import manaka.struts.modele.Genre;
 import manaka.struts.modele.Produit;
 import manaka.struts.services.ProduitServices;
 
@@ -20,13 +22,18 @@ import manaka.struts.services.ProduitServices;
 public class Main {
     public static void main(String[] data){
         try {
-            Main mon = new Main();
             HibernateDao hibernate = new HibernateDao();
             
-            Produit p = ProduitServices.getOneProduit(new Produit(5));
-            p.setDesignation("manaka");
-            hibernate.update(p);
-            //System.out.println(p.toString());
+            Genre p = new Genre();
+            
+            double number = hibernate.getNumberOfRow(p);
+            System.out.println("number of genre :" + number);
+//            List<BaseModele> genreList = hibernate.findWithPagination(p, 2,10);
+//            for (BaseModele baseModele : genreList) {
+//                Genre g = (Genre) baseModele;
+//                System.out.println(g.getDesignation());
+//            }
+            
             
         }catch (Exception ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
